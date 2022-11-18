@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+:root{
+    --fonte-padrao: 'Syne Mono', monospace;;
+    --primary-color: #211572;
+    --bg-color: #b6b7ff;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 2px solid var(--bg-color);
+    display: inline-block;
+    font-size: 3em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn_jogar_novamente{
+    padding: 8px 15px;
+    border: 2px solid var(--bg-color);
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+    .btn_jogar_novamente:hover{
+        cursor: pointer;
+        border: 2.5px solid var(--bg-color);
+        font-weight: bold;
+    }
